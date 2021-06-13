@@ -1,5 +1,6 @@
 {
     "name": "[GameDev.Problem.Set]Function.With.Parameters",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "device": "*"
