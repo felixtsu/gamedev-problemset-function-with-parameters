@@ -85,16 +85,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
         `)
 })
 let playerSprite: Sprite = null
-tiles.setTilemap(tiles.createTilemap(hex`0a000800020c01040404040404050c02060a0a0a0a0a0a090b02060a0a0a0a0a0a090c0b060a0a0a0a0a0a090b0c060a0a0a0a0a0a09020b060a0a0a0a0a0a090b02060a0a0a0a0a0a09020c0307070707070708`, img`
-    . . . . . . . . . . 
-    . . . . . . . . . . 
-    . . . . . . . . . . 
-    . . . . . . . . . . 
-    . . . . . . . . . . 
-    . . . . . . . . . . 
-    . . . . . . . . . . 
-    . . . . . . . . . . 
-    `, [myTiles.transparency16,sprites.castle.tilePath1,sprites.castle.tileGrass2,sprites.castle.tilePath7,sprites.castle.tilePath2,sprites.castle.tilePath3,sprites.castle.tilePath4,sprites.castle.tilePath8,sprites.castle.tilePath9,sprites.castle.tilePath6,sprites.castle.tilePath5,sprites.castle.tileGrass1,sprites.castle.tileGrass3], TileScale.Sixteen))
+tiles.setTilemap(tilemap`级别1`)
 playerSprite = sprites.create(img`
     . . . . f f f f . . . . 
     . . f f e e e e f f . . 
